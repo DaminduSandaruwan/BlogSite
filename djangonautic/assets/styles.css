@@ -1,4 +1,6 @@
 body{
-    background: blue;
-    background-color: blue;
+    background-color: #0f121f;
+    background-image: url(/static/coffee_bg.png);
+    background-repeat: no-repeat;
+    color: #fff;
 }
