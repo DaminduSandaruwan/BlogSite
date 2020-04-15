@@ -1,6 +1,20 @@
 body{
     background-color: #0f121f;
-    background-image: url(/static/coffee_bg.png);
+    background-image: url(/static/bg1.jpg);
     background-repeat: no-repeat;
     color: #fff;
+}
+
+body *{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: normal;
+    margin: 0;
+}
+
+a,a:hover, a:visited{
+    color: #fff;
+    text-decoration: none;
 }
