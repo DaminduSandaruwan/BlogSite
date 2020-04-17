@@ -4,5 +4,7 @@ from .import views
 app_name = 'accounts'
 
 urlpatterns = [
-    url(r'^signup/$', views.signup_view, name="signup")    
+    url(r'^signup/$', views.signup_view, name="signup"),
+    url(r'^login/$',views.login_view, name="login"),
+
 ]
