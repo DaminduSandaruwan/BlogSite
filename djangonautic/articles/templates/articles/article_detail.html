@@ -3,10 +3,12 @@
 {% block content%}
     <div class="article-detail">
         <div class="article">
+            <img src="{{article.thumb.url}}">
             <h2>{{article.title}}</h2>
             <p>{{article.body}}</p>
             <p>{{article.date}}</p>
-            <img src="{{article.thumb.url}}">
+            <p class="author">added by {{article.author.username}}</p>
+            
         </div>
     </div>
 {% endblock %}
